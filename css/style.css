@@ -11,7 +11,7 @@ body{
 }
 /*definindo larguta min e max para um layout liquido*/
 #conteiner{
-    background: #ede9cc;
+    background: #ede9cc url(../img/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -105,4 +105,62 @@ ul#navegacao a:visited, a:link{
 }
 ul#navegacao a:hover{
     background: #fdf6be;
+}
+/*estilizando a section e definindo suas larguras*/
+#section-one{
+    background: url(../img/bg-area-principal.png) top center repeat-x;
+    width: 50%;
+    float: left;
+    padding: 15px 0;
+}
+#section-two{
+    background: url(../img/bg-area-lateral.png) top center repeat-x;
+    width: 50%;
+    float: right;
+    padding: 20px 0;
+}
+.content{
+    margin: 0 auto;
+    width: 90%;
+}
+/*estilizando o ul de navegação do conteudo*/
+#lista-locais li{
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    height: 6em;
+}
+#lista-locais li img{
+    float: left;
+    margin-right: 10px;
+}
+ul#lista-locais h3{
+    font-size: 1.1em;
+    color: #7d7640;
+    padding: 5px 0;
+    background: url(../img/ornamento.png) no-repeat center right;
+}
+ul#lista-locais a{
+    color: #000;
+    font-size: 0.8em;
+}
+#lista-locais li:hover{
+    background: #f6f3d6;
+}
+/*estilizando o rodapé*/
+footer{
+    clear: both;
+    padding: 16px;
+    text-align: center;
+    color: #7d7640;
+    background: #fff url(../img/bg-rodape.png) top repeat-x;
+}
+/*formatação de texto h2 e p*/
+h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
 }
